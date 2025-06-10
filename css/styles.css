@@ -1,6 +1,8 @@
 body {
-  font-family: Roboto sans-serif;
-  color: #2e2f42;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -12,7 +14,8 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -21,7 +24,8 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
@@ -34,7 +38,7 @@ ul {
 }
 
 .page-nav .link:focus,
-.page-nav .link:active {
+.page-nav .link:hover {
   color: #404bbf;
 }
 
@@ -43,6 +47,8 @@ ul {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .cnt .cnt-address:hover,
@@ -51,8 +57,6 @@ ul {
 }
 
 .main-page {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 
@@ -61,10 +65,19 @@ ul {
   font-size: 56px;
   line-height: 1.5;
   text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
 .main-page-btn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -73,11 +86,8 @@ ul {
   background: #4d5ae5;
 }
 
-.main-page-btn:hover {
-  color: #fff;
-}
-
-.main-page-btn:active {
+.main-page-btn:hover,
+.main-page-btn:focus {
   background-color: #404bbf;
 }
 
@@ -85,21 +95,13 @@ ul {
   background: #f4f4fd;
 }
 
-h2 {
+.studio-title {
+  line-height: 1.11;
   font-size: 36px;
-  line-height: 1.1;
-}
-
-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 500;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1, 5;
-  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .footer {
@@ -110,7 +112,8 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -119,7 +122,8 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
@@ -129,4 +133,5 @@ p {
   line-height: 1.5;
   font-weight: 400;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
